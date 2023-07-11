@@ -1,0 +1,123 @@
+.project-page {
+    font-family: 'Valera Round', sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  .hero-section {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .hero-image-container {
+    flex: 1;
+  }
+  
+  .hero-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .hero-details {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .hero-title {
+    margin-bottom: 10px;
+  }
+  
+  .hero-description {
+    margin-bottom: 20px;
+  }
+  
+  .hero-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  
+  .hero-tags span {
+    margin: 5px;
+    padding: 5px 10px;
+    color: #fafafa;
+    background-color: #9CAFFB;
+    border-radius: 5px;
+  }
+  
+  .demo-github-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .demo-link,
+  .github-link {
+    font-size: 16px;
+    color: #fafafa;
+    background-color: #9CAFFB;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .feature-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .feature-details {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .feature-image-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .feature-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .feature-title,
+  .feature-text {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .hero-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hero-image-container,
+    .hero-details {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .hero-details {
+      padding: 20px 0;
+    }
+  
+    .hero-tags {
+      justify-content: center;
+    }
+  
+    .demo-github-container {
+      align-items: center;
+    }
+  }
+  

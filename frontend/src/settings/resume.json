@@ -1,0 +1,52 @@
+{
+    "basics": {
+        "name": "Sawda Jimale",
+        "label": "Software Developer",
+        "email": "Sawdajimale@gmail.com",
+        "phone": "07495795929",
+        "picture": "mt.png",
+        "x_title": "Hello, I'm",
+        "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
+        "summary": "based in London, England",
+        "keywords": "personal,website,portfolio,template,kit,",
+        "url": "Sawdajimale.com",
+        "location": {
+            "address": "68 Barnfield Gardens ",
+            "postalCode": "Plumstead Common Road",
+            "city": "London",
+            "country": "England"
+        },
+        "profiles": [
+            {
+                "network": "Google",
+                "username": "Sawdajimale@gmail.com",
+                "url": "mailto:sawdajimale@gmail.com",
+                "x_icon": "fab fa-google"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "sawda-jimale",
+                "url": "https://www.linkedin.com/in/sawda-jimale/",
+                "x_icon": "fab fa-linkedin-in"
+            },
+            {
+                "network": "GitHub",
+                "username": "sawdaJ",
+                "url": "https://github.com/sawdaJ",
+                "x_icon": "fab fa-github"
+            },
+            {
+                "network": "Instagram",
+                "username": "sawdaj",
+                "url": "https://www.instagram.com/sawdaj/",
+                "x_icon": "fab fa-discord"
+            }
+        ]
+    },
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference..."
+        }
+    ]
+}
